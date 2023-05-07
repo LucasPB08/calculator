@@ -21,7 +21,7 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
 
-The C compiler identification is MSVC, found in "C:/Users/Lucas/Documents/Personal/Projects/cpp/sudoku-game/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.exe"
+The C compiler identification is MSVC, found in "C:/Users/Lucas/Documents/Personal/Code/Projects/cpp/sudoku-game/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe 
@@ -45,21 +45,21 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
 
-The CXX compiler identification is MSVC, found in "C:/Users/Lucas/Documents/Personal/Projects/cpp/sudoku-game/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+The CXX compiler identification is MSVC, found in "C:/Users/Lucas/Documents/Personal/Code/Projects/cpp/sudoku-game/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.exe"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Lucas/Documents/Personal/Projects/cpp/sudoku-game/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8w8ckc
+Change Dir: C:/Users/Lucas/Documents/Personal/Code/Projects/cpp/sudoku-game/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0l3rvq
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.1.1/bin/ninja/win/x64/ninja.exe cmTC_6c5cd && [1/2] Building C object CMakeFiles\cmTC_6c5cd.dir\CMakeCCompilerABI.c.obj
-[2/2] Linking C executable cmTC_6c5cd.exe
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.1.1/bin/ninja/win/x64/ninja.exe cmTC_165d0 && [1/2] Building C object CMakeFiles\cmTC_165d0.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_165d0.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Lucas/Documents/Personal/Projects/cpp/sudoku-game/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2q07b3
+Change Dir: C:/Users/Lucas/Documents/Personal/Code/Projects/cpp/sudoku-game/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8cko88
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.1.1/bin/ninja/win/x64/ninja.exe cmTC_0552a && [1/2] Building CXX object CMakeFiles\cmTC_0552a.dir\CMakeCXXCompilerABI.cpp.obj
-[2/2] Linking CXX executable cmTC_0552a.exe
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.1.1/bin/ninja/win/x64/ninja.exe cmTC_d6373 && [1/2] Building CXX object CMakeFiles\cmTC_d6373.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_d6373.exe
 
 
 

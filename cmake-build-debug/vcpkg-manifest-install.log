@@ -1,0 +1,10 @@
+Detecting compiler hash for triplet x64-windows...
+Detecting compiler hash for triplet x86-windows...
+All requested packages are currently installed.
+Restored 0 package(s) from C:\Users\Lucas\AppData\Local\vcpkg\archives in 111 us. Use --debug to see more details.
+Total install time: 127 us
+The package wxwidgets provides CMake targets:
+
+    find_package(wxWidgets CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE wx::core wx::base)
+
