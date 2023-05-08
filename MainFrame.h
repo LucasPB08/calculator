@@ -5,6 +5,8 @@
 
 
 class MainFrame : public wxFrame {
+private:
+    wxPanel* mainPanel;
 public:
     MainFrame(const wxString& title);
 };
