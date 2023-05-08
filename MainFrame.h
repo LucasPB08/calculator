@@ -9,6 +9,7 @@ private:
     wxPanel* mainPanel;
 public:
     MainFrame(const wxString& title);
+    void createButtons();
 };
 
 
