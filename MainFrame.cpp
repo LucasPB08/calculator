@@ -32,14 +32,3 @@ void MainFrame::handleButtonClick(wxCommandEvent &evt) {
     wxLogStatus("%i", val);
 }
 
-//void MainFrame::createButtons() {
-//    wxButton* button1 = new wxButton(mainPanel, wxID_ANY, "1", wxPoint(100,100), wxSize(40,40));
-//    wxButton* button2 = new wxButton(mainPanel, wxID_ANY, "2", wxPoint(140, 100));
-//    wxButton* button3 = new wxButton(mainPanel, wxID_ANY, "3");
-//    wxButton* button4 = new wxButton(mainPanel, wxID_ANY, "4");
-//    wxButton* button5 = new wxButton(mainPanel, wxID_ANY, "5");
-//    wxButton* button6 = new wxButton(mainPanel, wxID_ANY, "6");
-//    wxButton* button7 = new wxButton(mainPanel, wxID_ANY, "7");
-//    wxButton* button8 = new wxButton(mainPanel, wxID_ANY, "8");
-//    wxButton* button9 = new wxButton(mainPanel, wxID_ANY, "9");
-//}
