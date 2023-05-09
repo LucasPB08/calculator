@@ -4,6 +4,7 @@
 
 MainFrame::MainFrame(const wxString& title): wxFrame(nullptr, wxID_ANY, title, wxDefaultPosition, wxSize(600, 500)){
     this->mainPanel = new wxPanel(this, wxID_ANY);
+    CreateStatusBar();
     createButtons();
 }
 
@@ -16,10 +17,15 @@ void MainFrame::createButtons() {
             y += size;
             x = 100;
         }
-        wxString title("button");
+        wxString title = wxString::Format(wxT("%i"), i+1);
         wxButton* button = new wxButton(mainPanel, wxID_ANY, title , wxPoint(x,y), wxSize(size, size));
+        button -> Bind(wxEVT_BUTTON, &MainFrame::handleButtonClick, this);
         x += size;
     }
+}
+
+void MainFrame::handleButtonClick(wxCommandEvent &evt) {
+    evt.GetClientObject();
 }
 
 //void MainFrame::createButtons() {
