@@ -7,6 +7,8 @@
 class MainFrame : public wxFrame {
 private:
     wxPanel* mainPanel;
+    void createButtons();
+    void handleButtonClick(wxCommandEvent& evt);
 public:
     MainFrame(const wxString& title);
 };

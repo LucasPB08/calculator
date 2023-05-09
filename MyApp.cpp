@@ -8,7 +8,7 @@
 wxIMPLEMENT_APP(MyApp);
 
 bool MyApp::OnInit() {
-    MainFrame* mainFrame = new MainFrame("My App");
+    MainFrame* mainFrame = new MainFrame("My Calculator");
     mainFrame -> Show();
     return true;
 }
