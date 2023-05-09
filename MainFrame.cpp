@@ -25,7 +25,11 @@ void MainFrame::createButtons() {
 }
 
 void MainFrame::handleButtonClick(wxCommandEvent &evt) {
-    evt.GetClientObject();
+    wxButton* button = (wxButton*) evt.GetEventObject();
+    wxString label = button->GetLabel();
+    long val;
+    label.ToLong(&val);
+    wxLogStatus("%i", val);
 }
 
 //void MainFrame::createButtons() {
